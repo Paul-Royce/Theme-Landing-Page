@@ -9,7 +9,7 @@ const Header = ({toggleFylo}) => {
         <nav>
             <ul className='flex gap-x-4 lg:gap-x-8'>
                 <li><a className="transiton duration-200 hover:text-fyloCyan" href='#features'>Features</a></li>
-                <li><a className="transitipn duration-200 hover:text-fyloCyan" href='/'>Team</a></li>
+                <li><a className="transitipn duration-200 hover:text-fyloCyan" href='#team'>Team</a></li>
                 <li><a className="transitin duration-200 hover:text-fyloCyan" href='#subscribe'>Sign In</a></li>
             </ul>
         </nav>

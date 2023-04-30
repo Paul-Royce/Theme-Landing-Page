@@ -12,7 +12,7 @@ const Testimonials = () => {
     }
 
   return (
-    <div className="mt-24 relative flex flex-col justify-center lg:flex-row">
+    <div id='team' className="mt-24 relative flex flex-col justify-center lg:flex-row">
         <img src={Quotes} alt='quotes' className="absolute -left-3 -top-8 lg:left-24 lg:-top-9 " />
         <div className="flex flex-col gap-8 lg:flex-row lg:w-10/12">
            <SingleTestimonial
