@@ -1,13 +1,38 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Customizing the scrollbar */
+::-webkit-scrollbar {
+  width: .3rem;
+  transition: .3s;
+}
+::-webkit-scrollbar-track {
+  background-color: hsl(218, 28%, 13%);
+  border-radius: 5pc;
+  transition: .3s;
+}
+::-webkit-scrollbar-track:hover {
+  background-color: hsl(215, 17%, 25%);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%)) ;
+  border-radius: 5pc;
+  cursor: pointer;
+}
+
+@supports(scrollbar-color: red blue) {
+  * {
+    scrollbar-color: hsl(198, 60%, 50%) hsl(218, 28%, 13%);
+    scrollbar-width: thin;
+  }
 }
