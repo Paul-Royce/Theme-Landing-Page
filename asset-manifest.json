@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Theme-Landing-Page.git/static/css/main.6180f84c.css",
-    "main.js": "/Theme-Landing-Page.git/static/js/main.6136f13c.js",
-    "static/media/illustration-intro.png": "/Theme-Landing-Page.git/static/media/illustration-intro.c20d85255009f195b4a6.png",
-    "static/media/illustration-stay-productive.png": "/Theme-Landing-Page.git/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
-    "index.html": "/Theme-Landing-Page.git/index.html",
-    "main.6180f84c.css.map": "/Theme-Landing-Page.git/static/css/main.6180f84c.css.map",
-    "main.6136f13c.js.map": "/Theme-Landing-Page.git/static/js/main.6136f13c.js.map"
+    "main.css": "/Theme-Landing-Page/static/css/main.6180f84c.css",
+    "main.js": "/Theme-Landing-Page/static/js/main.98900c0c.js",
+    "static/media/illustration-intro.png": "/Theme-Landing-Page/static/media/illustration-intro.c20d85255009f195b4a6.png",
+    "static/media/illustration-stay-productive.png": "/Theme-Landing-Page/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
+    "index.html": "/Theme-Landing-Page/index.html",
+    "main.6180f84c.css.map": "/Theme-Landing-Page/static/css/main.6180f84c.css.map",
+    "main.98900c0c.js.map": "/Theme-Landing-Page/static/js/main.98900c0c.js.map"
   },
   "entrypoints": [
     "static/css/main.6180f84c.css",
-    "static/js/main.6136f13c.js"
+    "static/js/main.98900c0c.js"
   ]
 }
